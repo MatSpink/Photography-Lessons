@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Photography Lessons</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#top").load("_top.html");
+        $("#bottom").load("_bottom.html");
+      });
+    </script>
+    <!-- styles.css-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- AOS CSS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <div id="top"></div>
+    <!-- content goes here -->
+
+    <!-- begin carousel-->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/images/carousel/1.jpg"
+            class="d-block w-100"
+            alt="Friendly photographer"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Find Your Style!</h5>
+            <p>Explore different techniques to find your photography style</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/2.jpg"
+            class="d-block w-100"
+            alt="Shoot team"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Teamwork!</h5>
+            <p>
+              Learn how to work with different people to produce the best
+              product you can
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/carousel/3.jpg"
+            class="d-block w-100"
+            alt="Cool equipment"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Equipment!</h5>
+            <p>
+              Learn about all of the different kinds of tools that can help you
+              make the best pictures possible
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="ratio ratio-16x9 carousel-alternate">
+      <iframe
+        src="https://www.youtube.com/embed/V7z7BAZdt2M"
+        title="Youtube Video"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+    <!-- end carousel-->
+
+    <!-- Font Awesome Row begin -->
+    <div class="container-fluid text-center fa-row">
+      <div class="row">
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-camera fa-row-icon"></i><br />
+          <a href="#">Photography Tutorials</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-camera-retro fa-row-icon"></i><br />
+
+          <a href="#">Tips and Tricks</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-sd-card fa-row-icon"></i><br />
+
+          <a href="#">Personal Tutors</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-panorama fa-row-icon"></i><br />
+
+          <a href="#">Helpful Links and Information Sites</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-images fa-row-icon"></i><br />
+
+          <a href="#">Post your Progress</a>
+        </div>
+        <div
+          class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+        >
+          <i class="fa-solid fa-clapperboard fa-row-icon"></i><br />
+
+          <a href="#">Videography Tutorials</a>
+        </div>
+      </div>
+    </div>
+    <!-- Font Awesome Row end -->
+
+    <!-- First description section begin -->
+    <div class="container volunteer-div google-font" data-aos="fade-up">
+      <div class="row">
+        <div class="col">
+          <img
+            src="/images/general/Volunteer.jpg"
+            class="img-responsive volunteer-img"
+            alt="Cool set"
+          />
+
+          <h2>Our Goal</h2>
+          <p>
+            Our goal with this website is to help everyone become the best
+            photographer they can be. Explore our tutorials section to learn
+            important skills to better your picture taking. We provide tutoring
+            to give a more hands on learning experience for the user. Scroll
+            through our tips and tricks section to get some quick and easy
+            advice on how to up your photography game.
+          </p>
+
+          <p>
+            If you click on the volunteer button below, it will take you to our
+            form where you can sign up to be a tutor. We will provide you with a
+            t-shirt and email you with instructions on how to upload content!
+            You don't have to be a photography wizard to apply, just submit a
+            short video that provides an example on what you could provide to
+            the site. Keep it within 10 minutes and make sure to have fun with
+            it!
+          </p>
+
+          <div>
+            <a href="form.html" class="btn btn-outline-primary btn-volunteer"
+              >Volunteer Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- First description section end -->
+
+    <!-- Gallery begins -->
+    <div class="container text-center">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/1.jpg">
+            <img
+              src="/images/fancybox/thumbs/1.jpg"
+              class="img-responsive img-fancybox"
+              alt="Camera green"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/2.jpg">
+            <img
+              src="/images/fancybox/thumbs/2.jpg"
+              class="img-responsive img-fancybox"
+              alt="Colorful lens"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/3.jpg">
+            <img
+              src="/images/fancybox/thumbs/3.jpg"
+              class="img-responsive img-fancybox"
+              alt="Bussiling street"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="/images/fancybox/originals/4.jpg">
+            <img
+              src="/images/fancybox/thumbs/4.jpg"
+              class="img-responsive img-fancybox"
+              alt="Pretty landscape"
+              data-aos="flip-left"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="row gallery-button">
+        <div class="col-12 text-center">
+          <a href="gallery.html" class="btn btn-outline-primary btn-gallery"
+            >View Gallery</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Gallery end -->
+
+    <!-- second description section begins -->
+    <div class="container contact-div google-font" data-aos="fade-up">
+      <div class="row">
+        <div class="col">
+          <img
+            src="/images/general/Contact.jpg"
+            class="img-responsive contact-img"
+            alt="Camera white"
+          />
+          <h2>Get in contact with us!</h2>
+
+          <p>
+            Contact us to learn more about volunteering opurtunities. We will
+            also host classes from time to time in person for some hands on
+            experience with camers and other equipment. Go to the schedule page
+            to see when we will be hosting classes.
+          </p>
+
+          <p>
+            Also, let us know if the website has helped you improve your
+            photography skills or if you have any suggestions for added content
+            to the site. We want to make sure our site provides a helpful and
+            fulfilling experience to our users and the best way to do that is to
+            listen to everyone directly!
+          </p>
+
+          <p>
+            <strong>
+              Contact us at Photlessons@gmail.com, or click on the contact
+              button to send us a message through the site !
+            </strong>
+          </p>
+
+          <div>
+            <a href="#footer-info" class="btn btn-outline-primary btn-contact"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second description section end -->
+
+    <!-- members begin -->
+    <div class="container text-center staff" id="staff">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/1.jpg"
+            alt="Jimmy John"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            Photography Lessons gave me the tools I needed to become a succseful
+            photographer!
+
+            <cite>Jimmy John</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/2.jpg"
+            alt="Papa Murphy"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            No matter your skill level, you'll find what you need right here on
+            the Photography Lesson's site.
+
+            <cite>Papa Murphy</cite>
+          </blockquote>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            src="/images/staff/thumbs/3.jpg"
+            alt="Sub Way"
+            class="cropped"
+            data-aos="zoom-in"
+          />
+          <br />
+          <blockquote>
+            This is the best photography website out there, extremely user
+            friendly, and a wonderful dev team.
+
+            <cite>Sub Way</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <!-- members end -->
+
+    <!-- content goes here -->
+    <div id="bottom"></div>
+
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>

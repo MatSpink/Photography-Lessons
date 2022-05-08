@@ -1,0 +1,12 @@
+:root {
+  /*colors*/
+  --dominantColor: #8733de; /*var(--dominantColor); */
+  --secondaryColor: #cf95cb; /*var(--secondaryColor); */
+  --accentColor: #cccccc; /*var(--accentColor); */
+
+  /*box shadow*/
+  /*cssmatic*/
+  /*https://shadows.brumn.af/*/
+  /*vertical, horizontal, blur, spread, color+opacity */
+  --boxShadow: 0 0 20px rgba(0, 0, 0, 0.35); /* var(--boxShadow) */
+}
